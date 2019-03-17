@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>доп 5</title>
+</head>
+
+<body>
+  <style>
+    .wrap {
+      height: 40px;
+      margin-top: 20px;
+      display: flex;
+    }
+    #result {
+      padding: 10px;
+      color: rgb(20, 103, 212);
+      outline: none;
+      border: none;
+    }
+  </style>
+  <div id="content"></div>
+  <div>
+    <input type="date" value="2018-12-31" id="start">
+    <input type="date" value="2019-03-17" id="stop">
+    <div class="wrap">
+      <button>Посчитать</button>
+      <input id="result" readonly></input>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+
+</html>
